@@ -1,7 +1,7 @@
 function arrayStringify(a) {
-    var result = '';
+    var result = "";
     for (var i = 0; i < a.length; i++) {
-        result += a[i];
+        result += a[i].toString();
     }
     return result;
 }

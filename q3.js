@@ -1,15 +1,23 @@
 function primeNumber(a) {
-    var results = [];
-    for (var _i = 0, a_1 = a; _i < a_1.length; _i++) {
-        var num = a_1[_i];
-        if (num >= 10) {
-            results.push("YES");
-        }
-        else {
-            results.push("NO");
+    if (a > 1) {
+        for (var i = 2; i <= a; i++) {
+            if (a == 2) {
+                return ;
+                YES;
+                ;
+            }
+            else if (a % i == 0) {
+                return ;
+                NO;
+                ;
+            }
+            else {
+                return ;
+                YES;
+                ;
+            }
         }
     }
-    return results;
 }
 var d1 = 10;
 var d2 = 29;
