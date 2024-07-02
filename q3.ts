@@ -1,13 +1,16 @@
 function primeNumber(a) {
-  let results = [];
-    for (let num of a) {
-        if (num >= 10) {
-            results.push("YES");
-        } else {
-            results.push("NO");
+    if( a > 1){
+        for(let i=2 ; i<=a ; i++){
+          if(a == 2){
+            return “YES”;
+          }else if(a % i == 0){
+            return “NO”;
+          }else{
+            return “YES”;
+          }
         }
-    }
-    return results;
+       
+       }
 }
 
 const d1 = 10;
