@@ -2,19 +2,13 @@ function primeNumber(a) {
     if (a > 1) {
         for (var i = 2; i <= a; i++) {
             if (a == 2) {
-                return ;
-                YES;
-                ;
+                return "YES";
             }
             else if (a % i == 0) {
-                return ;
-                NO;
-                ;
+                return "NO";
             }
             else {
-                return ;
-                YES;
-                ;
+                return "YES";
             }
         }
     }
